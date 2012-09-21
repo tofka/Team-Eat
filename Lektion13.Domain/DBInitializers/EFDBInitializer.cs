@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Data.Entity;
-using Lektion13.Domain.Contexts;
-using Lektion13.Domain.Entities;
+using TeamEat.Domain.Contexts;
+using TeamEat.Domain.Entities;
 
-namespace Lektion13.Domain.DBInitializers
+namespace TeamEat.Domain.DBInitializers
 {
     public class EFDBInitializer : DropCreateDatabaseIfModelChanges<EFDbContext>
     {

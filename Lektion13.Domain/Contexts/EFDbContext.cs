@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using Lektion13.Domain.Entities;
+using TeamEat.Domain.Entities;
 using System.Data.Entity;
 
-namespace Lektion13.Domain.Contexts
+namespace TeamEat.Domain.Contexts
 {
     public class EFDbContext : DbContext
     {

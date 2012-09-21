@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
-using Lektion13.Web.ViewModels;
+using TeamEat.Web.ViewModels;
 
-namespace Lektion13.Web.Controllers
+namespace TeamEat.Web.Controllers
 {
     public class AccountController : Controller
     {

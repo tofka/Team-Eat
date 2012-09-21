@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using Lektion13.Domain.Repositories.Abstract;
-using Lektion13.Domain.Entities.Abstract;
-using Lektion13.Domain.Contexts;
+using TeamEat.Domain.Repositories.Abstract;
+using TeamEat.Domain.Entities.Abstract;
+using TeamEat.Domain.Contexts;
 using System.Data.Objects;
 using System.Data.Entity;
 
-namespace Lektion13.Domain.Repositories
+namespace TeamEat.Domain.Repositories
 {
     public class Repository<T> : IRepository<T> where T : class, IEntity
     {

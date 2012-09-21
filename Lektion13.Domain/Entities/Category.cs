@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using Lektion13.Domain.Entities.Abstract;
+using TeamEat.Domain.Entities.Abstract;
 
-namespace Lektion13.Domain.Entities
+namespace TeamEat.Domain.Entities
 {
     public class Category : IEntity
     {

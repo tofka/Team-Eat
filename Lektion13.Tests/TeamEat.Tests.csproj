@@ -37,9 +37,6 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
-    <Reference Include="Moq">
-      <HintPath>..\packages\Moq.4.0.10827\lib\NET40\Moq.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
@@ -63,13 +60,13 @@
     <Content Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lektion13.Domain\Lektion13.Domain.csproj">
+    <ProjectReference Include="..\Lektion13.Domain\TeamEat.Domain.csproj">
       <Project>{4B4AA2CE-6B2B-4AF0-8E37-E076BB294A7B}</Project>
-      <Name>Lektion13.Domain</Name>
+      <Name>TeamEat.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Lektion13.Web\Lektion13.Web.csproj">
+    <ProjectReference Include="..\Lektion13.Web\TeamEat.Web.csproj">
       <Project>{F024D757-324F-42C6-AAE6-C3A8FCCFD2B5}</Project>
-      <Name>Lektion13.Web</Name>
+      <Name>TeamEat.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

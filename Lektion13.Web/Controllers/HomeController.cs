@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Lektion13.Domain.Repositories;
-using Lektion13.Domain.Entities;
+using TeamEat.Domain.Repositories;
+using TeamEat.Domain.Entities;
 
-namespace Lektion13.Web.Controllers
+namespace TeamEat.Web.Controllers
 {
     public class HomeController : Controller
     {

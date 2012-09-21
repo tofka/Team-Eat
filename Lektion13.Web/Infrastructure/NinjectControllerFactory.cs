@@ -4,12 +4,12 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Ninject;
-using Lektion13.Domain.Repositories.Abstract;
-using Lektion13.Domain.Entities;
-using Lektion13.Domain.Repositories;
+using TeamEat.Domain.Repositories.Abstract;
+using TeamEat.Domain.Entities;
+using TeamEat.Domain.Repositories;
 using System.Configuration;
 
-namespace Lektion13.Web.Infrastructure
+namespace TeamEat.Web.Infrastructure
 {
     public class NinjectControllerFactory : DefaultControllerFactory
     {

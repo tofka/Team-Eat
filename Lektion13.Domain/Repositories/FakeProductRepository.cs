@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using Lektion13.Domain.Entities;
+using TeamEat.Domain.Entities;
 
-namespace Lektion13.Domain.Repositories
+namespace TeamEat.Domain.Repositories
 {
     public class FakeProductRepository : FakeRepository<Product>, IProductRepository
     {
