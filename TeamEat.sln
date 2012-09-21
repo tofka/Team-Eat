@@ -7,11 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{51FA4B
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamEat.Web", "Lektion13.Web\TeamEat.Web.csproj", "{F024D757-324F-42C6-AAE6-C3A8FCCFD2B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamEat.Web", "TeamEat.Web\TeamEat.Web.csproj", "{F024D757-324F-42C6-AAE6-C3A8FCCFD2B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamEat.Tests", "Lektion13.Tests\TeamEat.Tests.csproj", "{C138CCF4-5353-4C64-A324-0196C9A90033}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamEat.Tests", "TeamEat.Tests\TeamEat.Tests.csproj", "{C138CCF4-5353-4C64-A324-0196C9A90033}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamEat.Domain", "Lektion13.Domain\TeamEat.Domain.csproj", "{4B4AA2CE-6B2B-4AF0-8E37-E076BB294A7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamEat.Domain", "TeamEat.Domain\TeamEat.Domain.csproj", "{4B4AA2CE-6B2B-4AF0-8E37-E076BB294A7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

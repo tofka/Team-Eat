@@ -60,7 +60,7 @@
     <Content Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lektion13.Domain\TeamEat.Domain.csproj">
+    <ProjectReference Include="..\TeamEat.Domain\TeamEat.Domain.csproj">
       <Project>{4B4AA2CE-6B2B-4AF0-8E37-E076BB294A7B}</Project>
       <Name>TeamEat.Domain</Name>
     </ProjectReference>
