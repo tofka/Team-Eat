@@ -64,7 +64,7 @@
       <Project>{4B4AA2CE-6B2B-4AF0-8E37-E076BB294A7B}</Project>
       <Name>TeamEat.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Lektion13.Web\TeamEat.Web.csproj">
+    <ProjectReference Include="..\TeamEat.Web\TeamEat.Web.csproj">
       <Project>{F024D757-324F-42C6-AAE6-C3A8FCCFD2B5}</Project>
       <Name>TeamEat.Web</Name>
     </ProjectReference>

@@ -12,7 +12,7 @@ namespace TeamEat.Web.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Welcome to ASP.NET MVC!";
+            ViewBag.Message = "Sök på postnummer eller ort";
 
             return View();
         }
