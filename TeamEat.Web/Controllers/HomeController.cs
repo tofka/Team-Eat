@@ -27,7 +27,7 @@ namespace TeamEat.Web.Controllers
             var categories = categoryRepo.FindAll();
 
             var filteredCategories = categoryRepo.FindAll(c => c.Name.Contains("sport"));
-
+ 
             var category = categoryRepo.FindByID(0);
 
             category.Name = "New Name!";
